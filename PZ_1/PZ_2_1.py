@@ -4,5 +4,5 @@ try:
     seconds_in_hour = n % 3600
     minutes = seconds_in_hour // 60
     print("Полных минут с начала последнего часа", minutes)
-except ValueError
+except ValueError:
     print("Ошибка: нужно ввести целое числорол.")
